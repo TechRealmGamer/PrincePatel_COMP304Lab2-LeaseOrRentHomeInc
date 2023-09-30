@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:id="@+id/main_btn_Enter"
+        android:layout_width="150dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners"
+        android:textColor="@color/material_dynamic_neutral_variant20"
+        android:text="@string/enter"/>
+
+</RelativeLayout>

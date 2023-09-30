@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PrincePatel_COMP304Lab2</string>
+    <string name="enter">Enter</string>
+    <string name="xyz">PrincePatel_COMP304Lab2</string>
+    <string name="yzx">PrincePatel_COMP304Lab2</string>
+    <string name="zxy">PrincePatel_COMP304Lab2</string>
+
+
+    <string name="select_payment_method">Select Payment Method</string>
+    <string name="cash">Cash</string>
+    <string name="credit">Credit Card</string>
+    <string name="debit">Debit Card</string>
+    <string name="Continue">Continue</string>
+    <string name="card_number">Enter you card number</string>
+    <string name="expiry_date">MM/DD</string>
+    <string name="cvv">CVV</string>
+    <string name="pay">Submit</string>
+</resources>

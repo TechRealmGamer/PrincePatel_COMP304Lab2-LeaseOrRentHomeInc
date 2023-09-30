@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".CreditDebitCardInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_corners"
+        android:orientation="vertical"
+        android:paddingHorizontal="40dp"
+        android:paddingVertical="50dp">
+
+        <EditText
+            android:id="@+id/cd_cardNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/credit_card_24"
+            android:hint="@string/card_number"
+            android:inputType="numberDecimal"
+            android:maxLength="12"
+            android:paddingHorizontal="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="25dp">
+
+            <EditText
+                android:id="@+id/cd_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="0.5"
+                android:drawableEnd="@drawable/date_range_24"
+                android:hint="@string/expiry_date"
+                android:inputType="date"
+                android:paddingHorizontal="10dp" />
+
+            <EditText
+                android:id="@+id/cd_cvv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="0.5"
+                android:drawableEnd="@drawable/password_24"
+                android:hint="@string/cvv"
+                android:inputType="numberPassword"
+                android:maxLength="3"
+                android:paddingHorizontal="10dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/cd_btnPay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/primary"
+            android:text="@string/pay" />
+    </LinearLayout>
+</LinearLayout>
